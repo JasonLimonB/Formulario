@@ -1,0 +1,101 @@
+@import url("fuentes.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SansPro, sans-serif;
+}
+
+.contenedor{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    font-size: 20px;
+    font-weight: 600;
+    color: #3f3f3f;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+form{
+    width: 30%;
+}
+
+form>*{
+    width: 60%;
+}
+form> input{
+    font-size: 18px;
+    height: 35px;
+    padding: 0px 5px;
+    margin-bottom: 20px; 
+    border: none;
+    border-bottom: 1px solid #838485;
+}
+form> input:focus{
+    border-bottom: 1px solid #3a60db;
+}
+.btn{
+    height: 37px;
+    border: 1px solid #3a60db;
+    border-radius: 4px;
+    color: #3a60db;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 18px;
+}
+.btn:hover{
+    background: #3a60db;
+    color: #fff;
+    transition: 0.3s all ease;
+}
+
+.btn:active{
+    transform: scale(0.89);
+}
+
+
+.mensaje{
+    margin-top: 40px;
+    width: 20%;
+    height: 45px;
+    text-align: center;
+    background: rgb(7, 148, 89);
+    color: #fff;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.mensaje .ff {
+    font-size: 23px;
+    margin-right: 20px;
+}
+
+
+.mensaje-error{
+    margin-top: 40px;
+    width: 20%;
+    height: 45px;
+    text-align: center;
+    background: #DC3545;
+    color: #fff;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    /* box-shadow: 0px 0px 8px 0px rgba(211, 14, 63, 0.5); */
+}
+
+.mensaje-error .ffe{
+    font-size: 23px;
+    margin-right: 20px;
+}

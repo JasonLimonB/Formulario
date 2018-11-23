@@ -1,0 +1,9 @@
+@font-face{
+    font-family: 'SansPro';
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'SansProL';
+    src: url(../fonts/SourceSansPro-Light.ttf);
+}
