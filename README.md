@@ -4,12 +4,13 @@ Este es un formulario de prueba para el envio de datos desde un front a un back
 
 ### Archivos
 
-Lo que utilizo aquí son:
-    1. HTML5.
-    2. CSS3.
-    3. JavaScript Vanilla.
-    4. PHP.
-    5. MySql.
+Lo que utilizo aquí son
+
+1. HTML5.
+2. CSS3.
+3. JavaScript Vanilla.
+4. PHP.
+5. MySql.
 
 > Todo esto es solo para realizar una practica
 
